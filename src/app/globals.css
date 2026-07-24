@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-madina-green: #2E7D32;
+  --color-madina-green-dark: #1B5E20;
+  --color-madina-green-light: #F1F8E9;
+  --color-madina-gray: #6B7280;
+  --color-madina-forest: #1B4D3E;
+  --color-madina-gold: #D4AF37;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  color: #111827;
+}
+
+.gold-divider {
+  width: 48px;
+  height: 3px;
+  background-color: #2E7D32;
+}
+
+::selection {
+  background: #2E7D32;
+  color: white;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+.font-body {
+  font-family: 'Poppins', sans-serif;
+}
