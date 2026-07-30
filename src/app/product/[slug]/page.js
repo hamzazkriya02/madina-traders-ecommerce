@@ -6,8 +6,8 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { products, categoryImages } from "@/data/products";
 import { ShieldAlert, Leaf } from "lucide-react";
 
-export default function ProductDetail({ params }) {
-  const { slug } = params;
+export default async function ProductDetail({ params }) {
+  const { slug } = await params;
 
   const product = products.find((p) => p.slug === slug);
 
@@ -23,7 +23,7 @@ export default function ProductDetail({ params }) {
     `Assalam o Alaikum, I want to order: ${product.name} (${product.packSize}) - Rs. ${product.price}`;
 
   const whatsappLink =
-    `https://wa.me/923019206314?text=${encodeURIComponent(whatsappMessage)}`;
+    `https://wa.me/923443691242?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <>
