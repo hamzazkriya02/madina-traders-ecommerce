@@ -1,39 +1,98 @@
-# Madina Traders — Complete Frontend
+# 🌿 Madina Traders — Agricultural E-Commerce Platform
 
-This package is an updated, complete Next.js storefront based on the public Madina Traders repository structure.
+A modern, responsive agricultural e-commerce website built to help farmers and agricultural customers discover crop protection and plant nutrition products through a clean and user-friendly online experience.
 
-## Added / completed
-- Responsive homepage with hero, categories, featured products
-- Why choose us section, trust stats, testimonials and CTA
-- Full footer
-- Shop page with search, category filters and sorting
-- Product detail pages
-- Functional cart using localStorage
-- Checkout request screen
-- Login/register demo and account screen using localStorage
-- About and Contact pages
-- Responsive mobile navigation
-- WhatsApp support buttons
-- Product cards and category-based product visuals
+The platform provides categorized product browsing, detailed product information, shopping cart functionality, checkout flow, customer accounts, and direct WhatsApp support.
 
-## Important production notes
-The login, account, contact form and checkout are frontend demos. Before going live with real orders:
-1. Connect authentication to a secure backend/database.
-2. Connect checkout/order submission to your order database or email/WhatsApp workflow.
-3. Replace the placeholder phone/email in Footer, Contact and WhatsAppButton.
-4. Confirm customer-facing prices and product availability.
+## ✨ Features
 
-## Run
+- 🛒 Functional shopping cart
+- ➕ Add/remove products and update quantities
+- 💰 Automatic cart total calculation
+- 🔎 Product search
+- 🎯 Category-based filtering
+- ↕️ Product sorting
+- 📦 Detailed product pages
+- 🧾 Checkout interface
+- 👤 Login & registration interface
+- ⚙️ Customer account section
+- 💬 Direct WhatsApp product inquiries
+- 📱 Fully responsive design
+- 🌾 Agricultural product catalog
+- 🏢 About Us page
+- 📞 Contact page
+- 🧭 Responsive navigation
+- 🦶 Professional footer
+
+## 🛍️ Product Categories
+
+The store includes agricultural products across several categories:
+
+- Insecticides
+- Herbicides
+- Fungicides
+- Fertilizers
+- Plant Health Products
+
+Products include pack sizes, pricing, technical composition, and individual product pages.
+
+## 🛒 Shopping Experience
+
+Customers can browse products, search the catalog, filter by category, open individual product pages, select quantities, and add products to their cart.
+
+The cart is persisted locally using browser storage so items remain available during the browsing session.
+
+## 💬 WhatsApp Integration
+
+Customers can quickly contact Madina Traders through WhatsApp for:
+
+- Product availability
+- Agricultural product information
+- Order inquiries
+- Pack-size confirmation
+- General assistance
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Next.js
+- React.js
+- JavaScript
+- Tailwind CSS / Custom CSS
+- Lucide React
+
+**Functionality**
+- React Context API
+- Local Storage
+- Dynamic Routing
+- Responsive Web Design
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Navigation, product grids, forms, cards, and store pages adapt to different screen sizes.
+
+## 📂 Main Pages
+
+- Home
+- Shop
+- Product Details
+- Cart
+- Checkout
+- Login / Register
+- Customer Account
+- About Us
+- Contact Us
+
+## 🚀 Run Locally
+
+Clone the repository:
+
 ```bash
-npm install
-npm run dev
-```
-
-Then open http://localhost:3000
-
-## Latest visual fixes
-- Restored the original `public/hero-bg.jpg` field image from the old Madina Traders project.
-- Changed the hero headline and supporting text to a cleaner sans-serif font.
-- Aligned every product card so Add to Cart buttons sit on the same baseline in each row.
-- Added more breathing room above the Why Madina Traders “Our Story” button.
-- Added more breathing room above the Account “Sign In / Register” button.
+git clone https://github.com/hamzazkriya02/madina-traders-ecommerce.git
