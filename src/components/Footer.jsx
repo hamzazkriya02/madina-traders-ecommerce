@@ -25,8 +25,8 @@ export default function Footer() {
         <div>
           <h4>Contact</h4>
           <p><MapPin size={16}/> Bahawalpur, Punjab, Pakistan</p>
-          <p><Phone size={16}/> +92 300 0000000</p>
-          <p><Mail size={16}/> sales@madinatraders.pk</p>
+          <p><Phone size={16}/> +92 301 9206314</p>
+          <p><Mail size={16}/> hamzazakriya91@gmail.com</p>
         </div>
       </div>
       <div className="footer-bottom">© 2026 Madina Traders. All rights reserved.</div>
